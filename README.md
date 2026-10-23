@@ -5,7 +5,7 @@ I built MMOSkriptBridge to connect MMOItems and MythicMobs to Skript, so you can
 
 **Current build: 1.1.0-beta.3.** This is a beta, not a fully tested stable release.
 
-[Download the beta JAR](dist/MMOSkriptBridge-1.1.0-beta.3.jar) · [Report a problem](https://github.com/AkrienAkrich/MMO-Skript-Bridge/issues) · [Build instructions](BUILDING.md)
+[Download the beta JAR](dist/MMOSkriptBridge-1.1.0-beta.3.jar) · [Report a problem](https://github.com/AkrienAkrich/MMO-Skript-Bridge/issues)
 
 ## Features
 
