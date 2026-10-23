@@ -1,7 +1,7 @@
 # MMOSkriptBridge
 **by AkrienDiverse**
 
-A Skript addon bridging MMOItems and MythicMobs: manage items, identify mobs, and cast skills directly from your scripts.
+I built MMOSkriptBridge to connect MMOItems and MythicMobs to Skript, so you can manage items, identify mobs, and cast skills directly from your scripts.
 
 **Current build: 1.1.0-beta.3.** This is a beta, not a fully tested stable release.
 
@@ -73,9 +73,9 @@ The `take` effect removes up to the requested quantity; it does not require a co
 
 Compilation passed against Spigot API 1.20.1 and the supplied Skript 2.16.1 JAR, targeting Java 17 bytecode. Use the Java version required by your server and dependencies.
 
-Integration initialization was observed on **Purpur 1.21.11** with:
+I have confirmed that both integrations initialize on **Purpur 1.21.11** with:
 
-| Plugin | Supplied build |
+| Plugin | Build used |
 | --- | --- |
 | Skript | 2.16.1 |
 | MMOItems | 6.10.1-SNAPSHOT (file label 6.10.1-59) |
@@ -92,16 +92,20 @@ Include your server version, Java version, dependency versions, a minimal script
 
 ## Source and authorship
 
-The original bridge classes were recovered from the author's supplied JARs using CFR. The combined loader, recovery fixes, console branding, and documentation were prepared with AI assistance. This does not establish or change the provenance of the original code.
+I lost the original source files, so I recovered the bridge classes from my JARs using CFR. I used AI assistance to combine the addons, fix recovery-related compilation errors, and prepare the console branding and documentation.
 
-No distribution license has been selected yet.
+## License
+
+I am releasing this code under the [MIT License](LICENSE). You may use, modify, and redistribute it, including commercially, provided you retain the copyright and license notice.
 
 ---
 
 ## По-русски
 
-MMOSkriptBridge связывает Skript с MMOItems и MythicMobs: выдача, изъятие и подсчёт предметов, чтение ID и типа, определение мобов и вызов скиллов.
+Я сделал MMOSkriptBridge для связи Skript с MMOItems и MythicMobs: выдача, изъятие и подсчёт предметов, чтение ID и типа, определение мобов и вызов скиллов.
 
 Установите JAR в `plugins/`, удалите старые отдельные мосты и AkrienSkriptBridge, затем полностью перезапустите сервер. Skript обязателен; две интеграции подключаются независимо. Для MMOItems также нужен MythicLib.
 
-Это бета-сборка. На Purpur 1.21.11 показана загрузка интеграций; полные функциональные тесты ещё не выполнены. Поддержка 1.20.x пока не подтверждена.
+Это бета-сборка. Я проверил загрузку интеграций на Purpur 1.21.11, но полное функциональное тестирование ещё не завершено. Поддержку 1.20.x пока не подтверждаю.
+
+Код выпускаю под MIT: его можно использовать, менять и распространять, в том числе в коммерческих проектах, сохраняя уведомление об авторстве и текст лицензии.
