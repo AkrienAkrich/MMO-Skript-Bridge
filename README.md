@@ -37,7 +37,7 @@ Dependencies are installed separately and are not bundled here.
 
 ## Examples
 
-Replace the sample type, item ID, and skill name with entries from your own configuration. These examples illustrate the registered syntax; they have not been validated in a server test suite.
+Replace the sample type, item ID, and skill name with entries from your own configuration. These examples illustrate the registered syntax;
 
 ```vb
 command /bridge-item:
