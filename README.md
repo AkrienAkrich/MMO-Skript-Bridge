@@ -20,12 +20,11 @@ I built MMOSkriptBridge to connect MMOItems and MythicMobs to Skript, so you can
 ## Installation
 
 1. Stop the server.
-2. Remove old **MMOItems-Skript**, **MythicMobs-Skript-Bridge**, or **AkrienSkriptBridge** JARs.
-3. Put the new JAR in `plugins/`.
-4. Install Skript and the plugins needed for your integration.
-5. Start the server and check the console integration status.
+2. Put the new JAR in `plugins/`.
+3. Install Skript and the plugins needed for your integration.
+4. Start the server and check the console integration status.
 
-Do not install this plugin alongside its predecessors. Use a full restart when replacing the JAR.
+Use a full restart when replacing the JAR.
 
 | Dependency | Purpose |
 | --- | --- |
