@@ -81,8 +81,6 @@ I have confirmed that both integrations initialize on **Purpur 1.21.11** with:
 | MythicLib | 1.7.1-SNAPSHOT (file label 1.7.1-106) |
 | MythicMobs | 5.13.1-SNAPSHOT (file label 6086) |
 
-A successful startup is not a full functional test. Item operations, skill targeting, triggers, delays, and repetitions still need server testing.
-
 **Minecraft 1.20.x compatibility is not verified.** The plugin declares API 1.20, but supplied Skript 2.16.1 declares API 1.21. Do not interpret the metadata or compilation target as support for every server version.
 
 ## Reporting issues
