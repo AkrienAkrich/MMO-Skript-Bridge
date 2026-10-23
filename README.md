@@ -70,7 +70,7 @@ The `take` effect removes up to the requested quantity; it does not require a co
 
 ## Compatibility and validation
 
-Compilation passed against Spigot API 1.20.1 and the supplied Skript 2.16.1 JAR, targeting Java 17 bytecode. Use the Java version required by your server and dependencies.
+Compilation passed against Spigot API 1.20.1 and Skript 2.16.1 JAR. Use the Java version required by your server and dependencies.
 
 I have confirmed that both integrations initialize on **Purpur 1.21.11** with:
 
